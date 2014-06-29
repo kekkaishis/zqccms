@@ -1,0 +1,425 @@
+2014/06/08 17:42:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "gii".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('gii')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/index.php/gii
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400767605205519.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400767605205519.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400764465844972.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400764465844972.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832253365468.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832253365468.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322581187.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322581187.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832323123286.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832323123286.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322299759.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322299759.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322294466.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322294466.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322657009.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322657009.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322581187.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322581187.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400764465844972.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400764465844972.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400767605205519.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400767605205519.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832253365468.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832253365468.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832323123286.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832323123286.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322299759.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322299759.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322657009.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322657009.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322294466.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322294466.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin/default/index
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400767605205519.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400767605205519.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322299759.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322299759.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140522/1400764465844972.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140522/1400764465844972.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322581187.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322581187.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832323123286.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832323123286.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832253365468.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832253365468.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322294466.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322294466.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:12:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "fuck/bitch/upload/image/20140523/1400832322657009.jpg".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('fuck/bitch/uplo...')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/fuck/bitch/upload/image/20140523/1400832322657009.jpg
+HTTP_REFERER=http://cms.com/index.php/Admin
+---
+2014/06/08 18:13:26 [error] [php] Use of undefined constant name - assumed 'name' (F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php:12)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): DefaultController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): DefaultController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/Admin
+in F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php (12)
+in F:\Server\cms\cms\index.php (13)
+2014/06/08 18:16:11 [error] [php] Use of undefined constant name - assumed 'name' (F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php:12)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): DefaultController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): DefaultController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/Admin
+in F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php (12)
+in F:\Server\cms\cms\index.php (13)
+2014/06/08 18:24:18 [error] [php] Object of class Goods could not be converted to string (F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php:12)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): DefaultController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): DefaultController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): DefaultController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Admin
+in F:\Server\cms\cms\protected\modules\Admin\controllers\DefaultController.php (12)
+in F:\Server\cms\cms\index.php (13)
+2014/06/08 19:10:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/08 19:11:23 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Site/index
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/08 19:11:32 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/Site/index/3
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/08 19:11:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "3s".' in F:\Server\cms\framework\web\CController.php:483
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(270): CController->missingAction('3s')
+#1 F:\Server\cms\framework\web\CWebApplication.php(282): CController->run('3s')
+#2 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/3s')
+#3 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 F:\Server\cms\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Site/3s
+---
+2014/06/08 19:12:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "sss".' in F:\Server\cms\framework\web\CController.php:483
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(270): CController->missingAction('sss')
+#1 F:\Server\cms\framework\web\CWebApplication.php(282): CController->run('sss')
+#2 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('Site/sss')
+#3 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#4 F:\Server\cms\cms\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/Site/sss
+---
+2014/06/09 12:25:58 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 12:25:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\Server\cms\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 F:\Server\cms\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/09 12:27:15 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 12:27:41 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 12:27:45 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 12:27:50 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 12:28:08 [error] [php] Undefined index: id (F:\Server\cms\cms\protected\controllers\SiteController.php:32)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#1 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#2 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#3 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#4 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#5 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\Server\cms\cms\protected\controllers\SiteController.php (32)
+in F:\Server\cms\cms\index.php (13)
+2014/06/09 13:21:59 [error] [php] mail() [<a href='function.mail'>function.mail</a>]: Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() (F:\Server\cms\cms\protected\controllers\SiteController.php:68)
+Stack trace:
+#0 F:\Server\cms\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\Server\cms\framework\web\CController.php(286): SiteController->runAction()
+#2 F:\Server\cms\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#3 F:\Server\cms\framework\web\CWebApplication.php(282): SiteController->run()
+#4 F:\Server\cms\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\Server\cms\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#6 F:\Server\cms\cms\index.php(13): CWebApplication->run()
+REQUEST_URI=/index.php/site/contact
+in F:\Server\cms\cms\protected\controllers\SiteController.php (68)
+in F:\Server\cms\cms\index.php (13)
+2014/06/15 16:13:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/29 14:46:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/06/29 17:32:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cms".' in C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php(141): CWebApplication->runController('cms')
+#1 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cms
+---
+2014/06/29 17:32:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "cms".' in C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\web\CWebApplication.php(141): CWebApplication->runController('cms')
+#1 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\framework\base\CApplication.php(169): CWebApplication->processRequest()
+#2 C:\Users\Kekkaishi\Documents\GitHub\kaishi_blog\cms\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/cms
+---
