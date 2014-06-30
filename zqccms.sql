@@ -10,7 +10,7 @@ SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
 -- -----------------------------------------------------
 CREATE SCHEMA IF NOT EXISTS `zqccms` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
 USE `zqccms` ;
-
+SET NAMES gbk;
 -- -----------------------------------------------------
 -- Table `zqccms`.`zqc_model`
 -- -----------------------------------------------------
@@ -28,10 +28,10 @@ ENGINE = InnoDB;
 CREATE TABLE IF NOT EXISTS `zqccms`.`zqc_column` (
   `column_id` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '栏目ID',
   `sid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '排序ID',
-  `cid` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '所属栏目ID',
+  `cid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '所属栏目ID',
   `column_name` VARCHAR(32) NOT NULL DEFAULT '' COMMENT '栏目名字',
   `column_content` TEXT NOT NULL DEFAULT '' COMMENT '栏目类容',
-  `mid` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '所属模型ID',
+  `mid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '所属模型ID',
   PRIMARY KEY (`column_id`),
   INDEX `fk_zqc_column_zqc_model_idx` (`mid` ASC),
   CONSTRAINT `fk_zqc_column_zqc_model`
@@ -50,12 +50,12 @@ CREATE TABLE IF NOT EXISTS `zqccms`.`zqc_modelnews` (
   `news_title` VARCHAR(32) NOT NULL DEFAULT '' COMMENT '新闻标题',
   `news_intro` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '新闻简介',
   `news_writer` VARCHAR(20) NOT NULL DEFAULT '' COMMENT '发表作者',
-  `news_time` INT(11) UNSIGNED NOT NULL DEFAULT '' COMMENT '发表时间',
-  `news_click` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '点击次数',
+  `news_time` INT(11) UNSIGNED NOT NULL DEFAULT '0' COMMENT '发表时间',
+  `news_click` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '点击次数',
   `news_image` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '新闻图片',
   `news_text` TEXT NOT NULL DEFAULT '' COMMENT '新闻内容',
-  `cid` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '所属栏目',
-  `mid` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '所属模型',
+  `cid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '所属栏目',
+  `mid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '所属模型',
   PRIMARY KEY (`news_id`),
   INDEX `fk_zqc_modelnews_zqc_column1_idx` (`cid` ASC),
   INDEX `fk_zqc_modelnews_zqc_model1_idx` (`mid` ASC),
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `zqccms`.`zqc_carousel` (
   `carousel_id` INT UNSIGNED NOT NULL AUTO_INCREMENT COMMENT '轮播图片ID',
   `carousel_photo` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '图片地址',
   `carousel_content` TEXT NOT NULL DEFAULT '' COMMENT '图片说明',
-  `cid` INT UNSIGNED NOT NULL DEFAULT '' COMMENT '所属栏目',
+  `cid` INT UNSIGNED NOT NULL DEFAULT '0' COMMENT '所属栏目',
   PRIMARY KEY (`carousel_id`),
   INDEX `fk_zqc_carousel_zqc_column1_idx` (`cid` ASC),
   CONSTRAINT `fk_zqc_carousel_zqc_column1`
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `zqccms`.`zqc_entirety` (
   `entirety_keywords` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '网站关键字',
   `entirety_description` VARCHAR(200) NOT NULL DEFAULT '' COMMENT '网站描述',
   `entirety_logo` VARCHAR(100) NOT NULL DEFAULT '' COMMENT '网站LOGO',
-  `entirety_content` DATETIME NOT NULL DEFAULT '' COMMENT '网站底部信息',
+  `entirety_content` TEXT NOT NULL DEFAULT '' COMMENT '网站底部信息',
   PRIMARY KEY (`entirety_id`))
 ENGINE = InnoDB;
 
